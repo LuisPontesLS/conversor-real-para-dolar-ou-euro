@@ -1,0 +1,16 @@
+/* ETAPAS:
+1.Pegar o clique;
+2.Ouvir o evento (clique)
+3.O que fazer quando clicado (função)
+4.Pegar o valor do input
+5.Converter o valor
+6.Mostrar o valor convertido
+7.Atualizar o valor (abaixo da bandeira do Brasil)
+8.Atualizar o valor (abaixo da bandeira do EUA)
+9.Formatando valor de exibição como moedas (usando biblio)
+
+10.Fazer a conversão ser aplicada para Euro*/
+
+// const button = document.getElementsByTagName('button')[0]
+// console.log(button)
+// MESMA RESULTADO DA SEGUINTE FORMA:

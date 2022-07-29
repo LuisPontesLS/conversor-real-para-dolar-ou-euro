@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*NÃO ESUECER MAIS ESSE ITEM*/
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container-general {
+    width: 375px;
+    background-color: #F4F4F4;
+    /*margin: 0 auto; PRIMEIRO APLICA ESSAS MARGENS*/
+    /*margin-top: 100px;DEPOIS SÓ EM CIMA (APLICA EM CASCATA)*/
+    margin: 100px auto 0 auto;
+    /*SIMPLIFICANDO AS DUAS LINHAS DE CIMA*/
+}
+
+/*== <GERAIS========================================================================*/
+
+
+/*==H1=> ========================================================================*/
+h1 {
+    width: 375px;
+    height: 66px;
+    background-color: #1B83E2;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    /* display: flex; NÃO APRENDIDO AINDA
+    align-items: center; NÃO FUNCIONA SEM O DISPLAY FLEX*/
+    text-align: center;
+    padding-top: 25px;
+    color: #F4F4F4;
+}
+
+/* <-H1========================================================================*/
+
+main {
+    padding: 24px;
+}
+
+/*LABEL - TODOS*/
+label {
+    font-style: normal;
+    font-weight: 400;
+    /*NO VÍDEO ESTÁ COMO 'NORMAL'*/
+    font-size: 14px;
+    line-height: 18px;
+    /* display: flex; NÃO APRENDIDO AINDA
+    align-items: center; NÃO FUNCIONA SEM O DISPLAY FLEX*/
+    color: #777777;
+}
+
+/*CAIXAS DE SELEÇÃO PARA QUAL MOEDA CONVERTER - TODAS*/
+select {
+    /*TEXTO DA CAIXA*/
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    padding-left: 17px;
+    /*PARA O TEXTO (R$...) DESCOLAR DA BORDA ESQUERDA*/
+
+    /*CAIXA*/
+    height: 48px;
+    display: block;
+    /*DEIXA LABEL E CAIXAS EM LINHAS DIFERENTES*/
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    /*TIRA A BORDA AZUL QUANDO PASSA O MOUSE POR CIMA DA CAIXA*/
+    appearance: none;
+    /*TIRA A SETA DE OPÇÃO DE SELEÇÃO*/
+    margin-top: 6px;
+    margin-bottom: 24px;
+
+    /*SOMBRA DA CAIXA*/
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    /*DEIXA LABEL E CAIXAS EM LINHAS DIFERENTES*/
+    width: 100%;
+    outline: none;
+    padding-left: 17px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+}
+
+/*BUTTON-> ===============================================================*/
+button {
+    background: #1B83E2;
+    border-radius: 25px;
+    height: 48px;
+    cursor: pointer;
+    width: 100%;
+    color: #F4F4F4;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+button:hover {
+    opacity: 0.9;
+    /*OPACIDADE VAI DE 0 - INVISÍVEL A 1 COR SÓLIDA*/
+}
+
+button:active {
+    opacity: 0.7;
+    /*OPACIDADE VAI DE 0 - INVISÍVEL A 1 COR SÓLIDA*/
+}
+
+/* <-BUTTON===============================================================*/
+
+
+/*SECTION ===============================================================*/
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+div.flag-and-currency {
+    text-align: center;
+    padding: 12px;
+}
+
+p.currency-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /*display: flex;
+    align-items: center;*/
+    color: #777777;
+}
+
+p.currency-value {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    /*display: flex;
+    align-items: center;*/
+    color: #1B83E2;
+}
+
+img.arrow-down-img {
+    display: block;
+    margin: 15px auto;
+}
