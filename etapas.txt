@@ -1,4 +1,4 @@
-/* ETAPAS:
+/* ETAPAS JS:
 1.Pegar o clique;
 2.Ouvir o evento (clique)
 3.O que fazer quando clicado (função)
