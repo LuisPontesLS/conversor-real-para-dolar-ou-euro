@@ -42,7 +42,7 @@ h1 {
     color: #F4F4F4;
 }
 
-/* <-H1========================================================================*/
+/* <-H1------------------------------------------------------------------------*/
 
 main {
     padding: 24px;
@@ -95,7 +95,7 @@ input {
     border-radius: 4px;
     height: 48px;
     display: block;
-    /*DEIXA LABEL E CAIXAS EM LINHAS DIFERENTES*/
+    /*DEIXA 'LABEL' E 'CAIXAS/INPUT' EM LINHAS DIFERENTES*/
     width: 100%;
     outline: none;
     padding-left: 17px;
@@ -165,6 +165,7 @@ p.currency-value {
     color: #1B83E2;
 }
 
+/*NÃO USA TEXT-LIGN: CENTER PQ NÃO É UM TEXTO*/
 img.arrow-down-img {
     display: block;
     margin: 15px auto;
